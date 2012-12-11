@@ -1,3 +1,3 @@
-var ajax = {
+sandjs.ajax = {
 	status : "Ajax"
 }

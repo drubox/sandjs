@@ -1,16 +1,20 @@
 /*
  * 
- *
+ */
 (function( window, undefined ) {
 "use strict";
-*/
-var debug = {
+
+var sandjs = {};
+
+//Export the sandjs variable to a global scope
+window.sandjs = sandjs;
+
+sandjs.debug = {
 	status : "Debug",
 	version : "1.2"
 }
-var ajax = {
+sandjs.ajax = {
 	status : "Ajax"
 }
-/*
 })( window );
-*/
+
